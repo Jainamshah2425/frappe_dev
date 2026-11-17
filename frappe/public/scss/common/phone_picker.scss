@@ -91,7 +91,8 @@
 		.country {
 			display: flex;
 			margin-left: 0.6rem;
-			align-items: flex-end;
+			// centred, so the code lines up with the flag and the input's own text
+			align-items: center;
 			flex-grow: 1;
 			line-height: normal;
 		}
@@ -107,14 +108,6 @@
 		.selected-phone {
 			top: 20%;
 			cursor: default;
-		}
-	}
-}
-
-.modal-body {
-	.frappe-control[data-fieldtype="Phone"] {
-		.selected-phone {
-			top: calc(50% - 0.5px);
 		}
 	}
 }
